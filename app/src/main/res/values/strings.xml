@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dark Random Generator</string>
+
+    <string name="label_home">Home</string>
+    <string name="label_games">Games and Lotteries</string>
+    <string name="label_numbers">Numbers</string>
+    <string name="label_strings">Strings</string>
+    <string name="label_about">About</string>
+
+    <string name="label_coin">Coin Flipper</string>
+    <string name="label_dice">Dice Roller</string>
+
+    <string name="label_integer">Integer Generator</string>
+    <string name="label_sequence">Sequence Generator</string>
+
+    <string name="label_list">List Randomizer</string>
+    <string name="label_string">String Generator</string>
+    <string name="label_clock">Clock Time Generator</string>
+    <string name="label_date">Calendar Date Generator</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_feature1"
+           android:checkableBehavior="single">
+        <item
+                android:checked="true"
+                android:id="@+id/nav_drawer_home"
+                android:icon="@drawable/ic_home_white_24dp"
+                android:title="@string/label_home" />
+    </group>
+    <group android:id="@+id/group_feature2"
+           android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_drawer_games"
+                android:icon="@drawable/ic_confirmation_number_white_24dp"
+                android:title="@string/label_games" />
+        <item
+                android:id="@+id/nav_drawer_numbers"
+                android:icon="@drawable/ic_format_list_numbered_white_24dp"
+                android:title="@string/label_numbers" />
+        <item
+                android:id="@+id/nav_drawer_strings"
+                android:icon="@drawable/ic_text_fields_white_24dp"
+                android:title="@string/label_strings" />
+    </group>
+    <group android:id="@+id/group_feature"
+           android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_drawer_about"
+                android:icon="@drawable/ic_info_white_24dp"
+                android:title="@string/label_about" />
+    </group>
+</menu>
