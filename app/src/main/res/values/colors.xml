@@ -11,4 +11,6 @@
     <color name="textBackground">#FFFFFF</color>
     <color name="textSurface">#FFFFFF</color>
     <color name="textError">#000000</color>
+
+    <color name="buttonClicked">#D3D3D3</color>
 </resources>

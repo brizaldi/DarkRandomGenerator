@@ -15,7 +15,29 @@
 
     <string name="label_list">List Randomizer</string>
     <string name="label_string">String Generator</string>
-    <string name="label_clock">Clock Time Generator</string>
-    <string name="label_date">Calendar Date Generator</string>
+
+    <string name="text_main_copy">Text copied to clipboard</string>
+    <string name="text_main_snack_empty">Please fill in all required fields</string>
+    <string name="text_integer_how_many">How many numbers do you need?</string>
+    <string name="text_integer_max">Max</string>
+    <string name="text_integer_min">Min</string>
+    <string name="text_coin_how_many">How many times do you need?</string>
+    <string name="text_dice_how_many">How many times do you need?</string>
+    <string name="text_string_how_many">How many strings do you need?</string>
+    <string name="text_string_how_long">How long each strings should be?</string>
+    <string name="text_string_character">Which characters are allowed to occur in the strings?</string>
+    <string name="text_string_numeric">Numeric digits (0–9)</string>
+    <string name="text_string_uppercase">Uppercase letters (A-Z)</string>
+    <string name="text_string_lowercase">Lowercase letters (a-z)</string>
+    <string name="text_string_snack_checkbox_empty">Please select one of those checkbox</string>
+    <string name="text_list_enter">Enter your items in the field below, each on a separate line</string>
+    <string name="text_about">Bahri Rizaldi\nbahri.rizaldi13@gmail.com</string>
+
+    <string name="button_main_copy">Copy</string>
+    <string name="button_main_randomize">Randomize</string>
+
+    <string name="placeholder_main_how_many">5</string>
+    <string name="placeholder_integer_min">1</string>
+    <string name="placeholder_integer_max">10</string>
 
 </resources>

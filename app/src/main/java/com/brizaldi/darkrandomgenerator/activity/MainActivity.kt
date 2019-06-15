@@ -52,18 +52,6 @@ class MainActivity : AppCompatActivity() {
                     selectedFragment = HomeFragment()
                     supportActionBar?.setTitle(R.string.app_name)
                 }
-                R.id.nav_drawer_games -> {
-                    selectedFragment = GamesFragment()
-                    supportActionBar?.setTitle(R.string.label_games)
-                }
-                R.id.nav_drawer_numbers -> {
-                    selectedFragment = NumbersFragment()
-                    supportActionBar?.setTitle(R.string.label_numbers)
-                }
-                R.id.nav_drawer_strings -> {
-                    selectedFragment = StringsFragment()
-                    supportActionBar?.setTitle(R.string.label_strings)
-                }
                 R.id.nav_drawer_about -> {
                     selectedFragment = AboutFragment()
                     supportActionBar?.setTitle(R.string.label_about)

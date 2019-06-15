@@ -71,7 +71,7 @@ class HomeFragment : Fragment() {
 
         val item2 = expandingList.createNewItem(R.layout.expanding_layout_home)
         item2.findViewById<TextView>(R.id.title).text = rootView.resources.getString(R.string.label_strings)
-        item2.createSubItems(4)
+        item2.createSubItems(2)
         item2.setIndicatorColorRes(R.color.textBackground)
         item2.setIndicatorIconRes(R.drawable.ic_text_fields_black_24dp)
         val subItem20 = item2.getSubItemView(0)
@@ -84,18 +84,6 @@ class HomeFragment : Fragment() {
         subItem21.findViewById<TextView>(R.id.sub_title).text = rootView.resources.getString(R.string.label_string)
         subItem21.setOnClickListener {
             val intent = Intent(mContext, StringActivity::class.java)
-            startActivity(intent)
-        }
-        val subItem22 = item2.getSubItemView(2)
-        subItem22.findViewById<TextView>(R.id.sub_title).text = rootView.resources.getString(R.string.label_date)
-        subItem22.setOnClickListener {
-            val intent = Intent(mContext, DateActivity::class.java)
-            startActivity(intent)
-        }
-        val subItem23 = item2.getSubItemView(3)
-        subItem23.findViewById<TextView>(R.id.sub_title).text = rootView.resources.getString(R.string.label_clock)
-        subItem23.setOnClickListener {
-            val intent = Intent(mContext, ClockActivity::class.java)
             startActivity(intent)
         }
     }

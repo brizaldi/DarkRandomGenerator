@@ -7,4 +7,10 @@
     <style name="AppTheme.ActionBar" parent="Theme.AppCompat.DayNight">
     </style>
 
+    <style name="ButtonRandomize" parent="Theme.MaterialComponents">
+        <item name="colorOnPrimary">@color/surface</item>
+        <item name="colorPrimary">@color/textSurface</item>
+        <item name="colorOnSurface">@color/buttonClicked</item>
+    </style>
+
 </resources>
