@@ -2,6 +2,8 @@
 
 Random generator with dark theme
 
+![screenshots of app](./.github/readme-images/screens.png)
+
 ## Installing
 
 Just download and install the APK.
