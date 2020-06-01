@@ -6,7 +6,7 @@ Random generator with dark theme
 
 ## Installing
 
-Just download and install the APK.
+Just download and install the APK [here](https://github.com/brizaldi/DarkRandomGenerator/releases/download/v1.0/dark_random_generator-v1.0.apk).
 
 ## Features
 
